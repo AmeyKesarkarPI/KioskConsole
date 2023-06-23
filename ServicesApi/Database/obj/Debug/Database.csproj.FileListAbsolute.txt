@@ -1,0 +1,13 @@
+C:\Users\Amey.Kesarkar\source\repos\ServicesApi\Database\bin\Debug\Database.dll
+C:\Users\Amey.Kesarkar\source\repos\ServicesApi\Database\bin\Debug\Database.pdb
+C:\Users\Amey.Kesarkar\source\repos\ServicesApi\Database\bin\Debug\Dapper.dll
+C:\Users\Amey.Kesarkar\source\repos\ServicesApi\Database\bin\Debug\Entity.dll
+C:\Users\Amey.Kesarkar\source\repos\ServicesApi\Database\bin\Debug\Entity.pdb
+C:\Users\Amey.Kesarkar\source\repos\ServicesApi\Database\bin\Debug\Dapper.xml
+C:\Users\Amey.Kesarkar\source\repos\ServicesApi\Database\obj\Debug\Database.csproj.AssemblyReference.cache
+C:\Users\Amey.Kesarkar\source\repos\ServicesApi\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+C:\Users\Amey.Kesarkar\source\repos\ServicesApi\Database\obj\Debug\Database.csproj.CopyComplete
+C:\Users\Amey.Kesarkar\source\repos\ServicesApi\Database\obj\Debug\Database.dll
+C:\Users\Amey.Kesarkar\source\repos\ServicesApi\Database\obj\Debug\Database.pdb
+C:\Users\Amey.Kesarkar\source\repos\ServicesApi\Database\bin\Debug\DTO.dll
+C:\Users\Amey.Kesarkar\source\repos\ServicesApi\Database\bin\Debug\DTO.pdb
