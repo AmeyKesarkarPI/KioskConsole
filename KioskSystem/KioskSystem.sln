@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KioskSystemAgent", "KioskSystemAgent\KioskSystemAgent.csproj", "{BF35D2F1-6A0D-4436-AA93-64F5AC11930C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KioskSystemAdmin", "KioskSystemAdmin\KioskSystemAdmin.csproj", "{C041F055-E4EF-4053-9C86-B89C57F6849B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{BF35D2F1-6A0D-4436-AA93-64F5AC11930C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF35D2F1-6A0D-4436-AA93-64F5AC11930C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF35D2F1-6A0D-4436-AA93-64F5AC11930C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C041F055-E4EF-4053-9C86-B89C57F6849B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C041F055-E4EF-4053-9C86-B89C57F6849B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C041F055-E4EF-4053-9C86-B89C57F6849B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C041F055-E4EF-4053-9C86-B89C57F6849B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

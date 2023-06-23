@@ -82,42 +82,5 @@ namespace KioskSystemAgent
             Console.Clear();
             this.DisplayOptions();
         }
-
-        public int GetBranchID()
-        {
-            int Service_Branch_id=0;
-            string s = "";
-            string filepath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\ServicePin.txt";
-            if (File.Exists(filepath))
-            {
-                s = File.ReadAllText(filepath);
-            }
-            if (s != "" || s != null)
-            {
-                string[] sarray = s.Split('=');
-                Service_Branch_id = Convert.ToInt32(sarray[1]);
-            }
-            return Service_Branch_id;
-        }
-        public void DisplayBranch(int Service_Branch_id)
-        {
-            using (HttpClient client = new HttpClient())
-            {
-                CommonResponseDTO<ServiceBranch> res = client.GetFromJsonAsync<CommonResponseDTO<ServiceBranch>>("https://localhost:44373/Api/Branch/" + Service_Branch_id).Result;
-                if (res.Success == true)
-                {
-                    ServiceBranch SB = res.Data;
-
-                    Console.WriteLine("Welcome To " + SB.CompanyName + " Of " + SB.BranchName + " Branch");
-
-                }
-                else
-                {
-                    Console.WriteLine("Please check Branch Id is incorrect..");
-                }
-            }
-        }
-        
-
     }
 }

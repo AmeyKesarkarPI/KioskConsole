@@ -41,9 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin.cs" />
     <Compile Include="Agent.cs" />
     <Compile Include="Answer.cs" />
+    <Compile Include="Branch.cs" />
     <Compile Include="CommonResponseDTO.cs" />
+    <Compile Include="Company.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="GetReader.cs" />
     <Compile Include="ServiceBranch.cs" />
